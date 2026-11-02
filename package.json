@@ -1,7 +1,7 @@
 {
   "name": "peerx-web",
   "version": "0.1.0",
-  "description": "PeerX — peer-to-peer crypto trading platform (waitlist, referrals, premium tier).",
+  "description": "PeerX \u2014 peer-to-peer crypto trading platform (waitlist, referrals, premium tier).",
   "private": true,
   "license": "MIT",
   "homepage": "https://peerx.com",
@@ -22,10 +22,10 @@
     "typescript"
   ],
   "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "build:analyze": "ANALYZE=true next build",
-    "start": "next start",
+    "dev": "node init && next dev",
+    "build": "node init && next build",
+    "build:analyze": "node init && ANALYZE=true next build",
+    "start": "node init && next start",
     "lint": "next lint",
     "test": "node node_modules/jest/bin/jest.js --config jest.config.js",
     "test:coverage": "node node_modules/jest/bin/jest.js --config jest.config.js --coverage",

@@ -42,3 +42,4 @@ next-env.d.ts
 
 # Playwright outputs (Junit reports, trace zip, last-run summaries)
 /test-results/
+config.bat
